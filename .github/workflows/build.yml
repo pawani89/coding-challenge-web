@@ -6,7 +6,8 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on:
+      group: organization/Default
     steps:
       - uses: actions/checkout@v2
         with:
